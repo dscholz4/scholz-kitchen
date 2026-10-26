@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "app",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["tools/serve.mjs", "8080"],
+      "port": 8080
+    },
+    {
+      "name": "mock-api",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["tools/mock-api.mjs", "8787"],
+      "port": 8787
+    }
+  ]
+}
